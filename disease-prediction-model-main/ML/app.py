@@ -4,7 +4,6 @@ from main import predict_disease
 from AI import conversation
 import sqlite3
 from werkzeug.security import generate_password_hash, check_password_hash
-# from waitress import serve
 
 app = Flask(__name__)
 cors = CORS(app)
