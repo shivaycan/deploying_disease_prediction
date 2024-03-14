@@ -1,6 +1,4 @@
 import pickle
-# from joblib import dump, load
-# dump('ML_model.pkl','rb')
 
 with open('ML_model.pkl','rb') as mod:
     model = pickle.load(mod)
