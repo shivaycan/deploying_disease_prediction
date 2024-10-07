@@ -1,9 +1,10 @@
+
 {
-    "version": 2,
-    "builds": [
-      {
-        "src": "templates/index.html", 
-        "use": "@vercel/static" 
-      }
-    ]
-  }
+  "version": 2,
+  "builds": [
+    {
+      "src": "index.html", // Or the main entry point of your framework
+      "use": "@vercel/static-build" // Or a framework-specific builder like @vercel/next
+    }
+  ]
+}
